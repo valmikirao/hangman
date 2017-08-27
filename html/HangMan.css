@@ -1,0 +1,39 @@
+.game {
+    font-size: 40px;
+    text-align: center;
+}
+
+.incorrectly-guessed-letters {
+    letter-spacing: 8px;
+    color: darkred;
+}
+
+.display-word {
+    letter-spacing: 4px;
+}
+
+.game-won {
+    margin: 30px;
+    color: darkgreen;
+    font-size: 60px;
+}
+
+.game-lost {
+    margin: 30px;
+    color: red;
+    font-size: 60px;
+}
+
+.hangman-ascii {
+    text-align: left;
+    white-space: pre;
+    font-family: monospace;
+}
+
+.restart-link {
+    margin: 30px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: grey;
+    cursor: pointer;
+}
